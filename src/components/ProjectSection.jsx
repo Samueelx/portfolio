@@ -39,7 +39,7 @@ const projects = [
       {
         name: "Restaurant",
         description:
-          "This is a restaurant web application that allows users to order their meals and the restaurant management to manage their inventory.",
+          "This is a restaurant web application that allows users to order their meals and the restaurant management to manage their inventory. [\u2757 The web application yet deployed!!]",
         image: "/restaurant_project.png",
         github: "https://github.com/Samueelx/restaurant",
         link: "",

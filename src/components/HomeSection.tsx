@@ -8,7 +8,7 @@ function HomeSection() {
     <section id="home">
       <div className="flex flex-col text-center items-center justify-center my-10 py-16 md:flex-row md:py-48 sm:py-32">
         <div className="md:w-3/4">
-          <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0">Hello, I&#39;m Samuel</h1>
+          <h1 className="font-bold text-3xl mt-6 md:text-6xl md:mt-0">Hello, I&#39;m Samuel</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I am an{" "}
             <span className="font-semibold text-teal-600">

@@ -1,10 +1,11 @@
 "use client"
 import Navbar from '@/components/Navbar'
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Roboto_Mono } from 'next/font/google'
 import { ThemeProvider } from 'next-themes'
+import Footer from '@/components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Roboto_Mono({ subsets: ['latin'] })
 
 // export const metadata = {
 //   title: 'Create Next App',
@@ -22,6 +23,7 @@ export default function RootLayout({
         <ThemeProvider enableSystem={true} attribute='class'>
         <Navbar />
         {children}
+        <Footer />
         </ThemeProvider>
         </body>
     </html>

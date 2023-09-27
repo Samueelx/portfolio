@@ -13,6 +13,7 @@ const skills = [
   { skill: "C++" },
   { skill: "MariaDB" },
   { skill: "PostgreSQL" },
+  {skill: "Supabase"},
   { skill: "Database Design" },
   { skill: "Version Control(git)" }
 ];
@@ -45,8 +46,14 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
+            I take pride in the delivery of clean, well-tested code that provides value to the end user. 
+            I thrive in working in dynamic teams that embrace collaboration and a growth culture 
+            where I can learn and mentor others. 
+            </p>
+            <br />
+            <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, hiking, runnig, to trying out new cooking recipes, I
+              From reading, hiking, runnig, to trying out new cooking recipes. I
               am always seeking new experiences and love to keep myself engaged
               and learning new things.
             </p>
@@ -64,7 +71,7 @@ const AboutSection = () => {
           </div>
 
           <div className="md:w-1/2">
-            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">My Skills</h1>
+            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">Top Skills</h1>
             <p>
               <div className="flex flex-wrap flex-row justify-center md:justify-start">
                 {skills.map((item, index) => {
